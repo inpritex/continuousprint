@@ -23,12 +23,12 @@ PrinterProfile:
       clearBed: Prusa Mini
       finished: Generic Off
     extra_tags: []
-  - name: Creality CR30
+  - name: Creality CR20-Pro
     make: Creality
-    model: CR30
-    width: 200
-    depth: 1000
-    height: 200
+    model: CR20-Pro
+    width: 220
+    depth: 220
+    height: 250
     formFactor: rectangular
     selfClearing: true
     defaults:
@@ -36,7 +36,8 @@ PrinterProfile:
       finished: Advance Belt Long
     extra_tags:
       - CR
-      - 30
+      - 20
+      - Pro
   - name: Monoprice Mini Delta V2
     make: Monoprice
     model: Mini Delta V2
